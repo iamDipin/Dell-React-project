@@ -52,6 +52,7 @@ export default function RequestList() {
         columns={columns}
         pageSize={5}
         rowsPerPageOptions={[5]}
+        disableColumnMenu
       />
     </Grid>
     </Grid>
