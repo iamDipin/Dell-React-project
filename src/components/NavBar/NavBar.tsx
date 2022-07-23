@@ -12,7 +12,23 @@ import MenuIcon from '@mui/icons-material/Menu';
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          
+        <Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="/"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+            Home
+          </Typography>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             DELL
           </Typography>

@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import Routes from "./router/RouteConfig"
-import ButtonAppBar from "./components/NavBar"
 import './App.css';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <ButtonAppBar/>
+      <NavBar/>
       <Routes/>
     </div>
   );
